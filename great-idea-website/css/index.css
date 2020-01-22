@@ -64,3 +64,127 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	margin: 60px;
+}
+header {
+	width: 100%;
+	text-align: justify;
+	position:fixed;
+	background-color:white;
+	overflow: hidden;
+	top: 0;
+	left:0;
+	box-shadow: 0px 1px 4px #000000;
+  }
+  
+  .section {
+	display: inline-block;
+  }
+  
+  .header a {
+	width: 100%;
+	margin-left:5%;
+	color:grey;
+  }
+  
+  .header:after {
+	display: inline-block;
+	width: 100%;
+	content: '';
+  }
+  
+  .header-img {
+	margin-top: 60px;
+  }
+  
+  .services-header-img {
+	  display: inline-block;
+	  margin-top: 20px;
+	  width: 100%;
+  }
+  
+  .block-image gvdwqa {
+	display: inline-block;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 100%;
+  }
+  
+  .main {
+	width: 100%;
+  }
+  
+  .center-text {
+	width: 50%;
+	display: inline-block;
+	text-align:center;
+  }
+  
+  .image { 
+	width: 40%;
+	display: inline-block;
+  }
+  
+  h1 {
+	font-size: 60px;
+	display: inline;
+  }
+  button{
+	  border: solid 1px;
+	  width: 100px;
+	  background-color: transparent;
+  }
+
+  .features {
+	width: 45%;
+	display: inline-block;
+	text-align:left;
+  }
+  
+  .about {
+	width: 45%;
+	display: inline-block;
+	text-align:left;
+  }
+  
+  .services {
+	width: 30%;
+	display: inline-block;
+	text-align:left;
+	padding: 10px;
+  }
+  
+  .product {
+	width: 30%;
+	display: inline-block;
+	text-align:left;
+	padding: 10px;
+  }
+  
+  .vision {
+	width: 30%;
+	display: inline-block;
+	text-align:left;
+	padding: 10px;
+  }
+  
+	
+	hr {
+	  background-color: #000;
+	  height: 2px;
+	  border: none;
+	  margin-bottom: 1em;
+		margin-top: 2em;
+	}
+	
+	.footer{
+	  display: inline;
+	  line-height: 3px;
+	}
+	
+	.copyright{
+	  text-align: center;
+	  margin-top: 30px;
+	}
+  
